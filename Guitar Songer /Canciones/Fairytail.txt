@@ -1,0 +1,131 @@
+
+
+Milky Chance
+
+[Pattern 1]
+
+  Gm         F        D#       F
+e|-------|-------|-----------|---|
+B|-------|-------|-----------|---|
+G|--3---3|--2---2|--0---0---0|--2|
+D|5---5--|3---3--|1---1---1--|3--|
+A|-------|-------|-----------|---|
+E|-------|-------|-----------|---|
+
+
+[Pattern 2]
+
+   Gm      Bb        D#                     Cm      Gm     F
+e|-------|-------|-----------------------|------|-------|---------------|
+B|-------|-------|-----------------------|------|-------|---------------|
+G|----3--|----7--|------12-------12----12|----5-|----3--|----2-----2---2|
+D|5-5---5|8-8---8|13-13----13-13----13---|5-5--5|5-5---5|3-3---3-3---3--|
+A|-------|-------|-----------------------|------|-------|---------------|
+E|-------|-------|-----------------------|------|-------|---------------|
+
+
+[Solo]
+
+e|-3355665533--------------------------------------------------|
+B|-3------------6644334433----------4433-----------------------|
+G|-3----------------------5533223355----5533223322-------------|
+D|-5----------------------------------------------5533---------|
+A|-5--------------------------------------------------5533-----|
+E|3-------------------------------------------------------66---|
+
+**************************************************************************
+
+[Intro] (Pattern 1)
+
+Gm, F, D#, F
+Gm, F, D#, F
+
+
+[Chorus](Pattern 1)
+
+Gm  F         D#         F
+    You are a fairy-tale
+Gm  F         D#         F
+    Don't you wanna stay?
+Gm  F         D#         F
+    You are a fairy-tale 
+Gm  F         D#
+ I hope that you don't run away
+
+
+[Interlude](Pattern 2)
+
+Gm,Bb,D#,Cm,Gm,F
+Gm,Bb,D#,Cm,Gm,F
+
+
+[Verse](Pattern 2 - Chords strummed)
+
+Gm            Bb    D#  
+    We should run away
+Cm               Gm           F
+    I can hear them tapping on the ground
+Gm            Bb    D# 
+     Where do we wanna go?
+Cm            Gm              F
+I know an ambush where we won't be found
+           Gm        Bb             D# 
+And so we went to the place, honey. Listening to the ALL-NIGHT-
+Cm                Gm    F
+SINGING-SWEET-MELODIES-FAIRY TREES
+              Gm         Bb         D# 
+And there was no better place to be And so we took off to the moon 
+Cm                    Gm           F
+and all the shining lights in the night
+
+
+[Chorus](Pattern 1)
+
+Gm  F         D#         F
+    You are a fairy-tale
+Gm  F         D#         F
+    Don't you wanna stay?
+Gm  F         D#         F
+    You are a fairy-tale 
+Gm  F         D#
+ I hope that you don't run away 
+
+
+[Interlude](Pattern 2)
+
+Gm,Bb,D#,Cm,Gm,F
+Gm,Bb,D#,Cm,Gm,F
+
+
+[Chorus](Pattern 2)
+
+Gm  Bb         D#         
+    You are a fairy-tale
+Cm  Gm         F  
+    Don't you wanna stay?
+Gm  Bb         D#        
+    You are a fairy-tale 
+Cm  Gm         F 
+ I hope that you don't run away
+ 
+ 
+[Chorus](Pattern 2 - strummed):
+
+Gm  Bb         D#         
+    You are a fairy-tale
+Cm  Gm         F 
+    Don't you wanna stay?
+Gm  Bb         D#        
+    You are a fairy-tale 
+Cm  Gm         F 
+ I hope that you don't run away
+ 
+ 
+[Solo]
+
+e|-3355665533-----------------------------------------------|
+B|-3------------6644334433----------4433--------------------|
+G|-3----------------------5533223355----5533223322----------|
+D|-5----------------------------------------------5533------|
+A|-5--------------------------------------------------5533--|
+E|3-------------------------------------------------------66|

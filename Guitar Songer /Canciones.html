@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<title>Guitar Songer</title>
+<link href="css/materialize.min.css" type="text/css" rel="stylesheet" />
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<HEAD>
+	<style>
+		.text{
+			margin-top: 10px;
+		}
+		.colorletra{
+			color:black;
+		}
+
+		.tamañotit{
+			height: 45px;
+			text-align: center;
+			line-height: 2;
+			font-size: 24px;
+
+		}
+
+		.tamañocanci{
+			height: 45px;
+			line-height: 2.4;
+
+
+		}
+
+		.tamañoletr{
+			margin-left: 30px;
+		}
+
+		button.accordion {
+			background-color: #eee;
+			color: #444;
+			cursor: pointer;
+			padding: 18px;
+			width: 100%;
+			border: none;
+			text-align: left;
+			outline: none;
+			font-size: 15px;
+			transition: 0.4s;
+		}
+
+		button.accordion.active, button.accordion:hover {
+			background-color: #ddd;
+		}
+
+		div.panel {
+			padding: 0 18px;
+			background-color: white;
+			max-height: 0;
+			overflow: hidden;
+			transition: 0.6s ease-in-out;
+			opacity: 0;
+		}
+
+		div.panel.show {
+			opacity: 1;
+			max-height: 500px;  
+		}
+
+		.fixed-nav-bar {
+			position: fixed;
+			top: 0;
+			left: 0;
+			z-index: 9999;
+			width: 100%;
+			height: 60px;
+			background-color: #00a087;
+		}		
+
+		.margintop{
+			margin-top: 60px;
+			position: relative;
+		}
+		.iconito{
+			position: relative;
+			top: 7px;
+		}
+
+		.btn-scroll{
+			margin-bottom: 470px;
+		}
+
+
+
+	</style>
+
+</HEAD>
+<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js">
+		$('.fixed-action-btn').openFAB();
+		$('.fixed-action-btn').closeFAB();
+		$('.fixed-action-btn.toolbar').openToolbar();
+		$('.fixed-action-btn.toolbar').closeToolbar();
+	</script>
+	
+
+	<nav class="fixed-nav-bar">
+		<div class="nav-wrapper black">
+			<img class="iconito" src="Imágenes/icon.png" height="35">
+			<a href="Canciones.html" class="brand-logo" style="font-family:Times New Roman">GS</a>
+			<ul class="right hide-on-med-and-down">
+				<li><a href="Guitar%20Songer.html"><i class="material-icons left">language</i>Home</a></li>
+				<li><a href="Canciones.html"><i class="material-icons left">queue_music</i>Songs</a></li>
+				<li><a href="Acerca de.html"><i class="material-icons left">person_pin</i>Acerca de</a></li>
+			</ul>
+		</div>
+	</nav>
+
+
+	<nav class="w3-sidenav w3-teal"  style="width:20% ">
+
+		<div class="accordion vertical w3-teal">
+			<section id="Rock Extranjero" class="w3-blue-grey">
+				<h2><a href="#Rock Extranjero" class="w3-text-white scroll">Rock Extranjero</a></h2>
+				<a class="colorletra btnCancion tamañocanci nombre" >Hotel California</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >The Pretender</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Californication</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Stairway to Heaven</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Jeremy</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Come As You Are</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Brown Sugar</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >November Rain</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Nothing Else Matters</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Like a Stone</a>
+			</section>
+			<section id="Rock Nacional" class="w3-blue-grey">
+				<h2><a href="#Rock Nacional" class="w3-text-white">Rock Nacional</a></h2>
+				<a class="colorletra btnCancion tamañocanci nombre" >Spaghetti del Rock</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Cerca de la Revolución</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Seguir Viviendo Sin tu Amor</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >En la Ciudad de la Furia</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Crimen</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Caña Seca y Un Membrillo</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Antes y Después</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Balada del Diablo y la Muerte</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Mujer Amante</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Arrancacorazones</a>
+			</section>
+			<section id="Metal" class="w3-blue-grey">
+				<h2><a href="#Metal" class="w3-text-white">Metal</a></h2>
+				<a class="colorletra btnCancion tamañocanci nombre" >Breaking the Law</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Smoke on the Water</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Paranoid</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >The Beautiful People</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Enter Sandman</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Run to the Hills</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >High 'n' Dry</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Master of Puppets</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Highway to Hell</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Wrong side of heaven</a>
+			</section>
+			<section id="Blues" class="w3-blue-grey">
+				<h2><a href="#Blues" class="w3-text-white">Blues</a></h2>
+				<a class="colorletra btnCancion tamañocanci nombre" >Sweet Home Chicago</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Boom Boom</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Some of These Days</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Ivory Road</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >The Thrill Is Gone</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Johnny B. Goode</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Purple Haze</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Crossroads</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >You Really Got Me</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Before You Accuse Me</a>
+			</section>
+			<section id="Reggae" class="w3-blue-grey">
+				<h2><a href="#Reggae" class="w3-text-white">Reggae</a></h2>
+				<a class="colorletra btnCancion tamañocanci nombre" >True Love</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Red Red Wine</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Redemtion Song</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Rest of my Life</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >No Woman No Cry</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Si el Amor se Cae</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >La Flor</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Sunshine Reggae</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Is This Love</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Three Little Birds</a>
+			</section>
+			<section id="Indie/Folk" class="w3-blue-grey">
+				<h2><a href="#Indie/Folk" class="w3-text-white">Indie/Folk</a></h2>
+				<a class="colorletra btnCancion tamañocanci nombre" >Stubborn Love</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Riptide</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Ho Hey</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Georgia</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Stolen Dance</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Nevermind</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Spirits</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Fairytail</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >House of Gold</a>
+				<a class="colorletra btnCancion tamañocanci nombre" >Another Love</a>
+			</section>
+
+		</div>
+
+		<pre>
+		</pre>
+
+
+
+
+	</nav>
+
+	<div style="margin-left:20%">
+
+		<header id="tit" class="w3-container w3-dark-grey tamañotit margintop">
+			Canciones
+		</header>
+
+		<div id="song" class="w3-container">
+			<div class="text tamañoletr" align="justify" >
+				Elija una cancion
+
+			</div>
+		</div>
+
+	</div>
+
+	<div class="fixed-action-btn horizontal btn-scroll">
+		<a class="btn-floating btn-large">
+			<img src="Imágenes/play-pausa.png" height= "57px" align="left">
+		</a>
+		<ul>
+			<li><a class="btn-floating " onclick="pageScroll()"><img src="Imágenes/play-mas.png" height= "37px"></a></li>
+			<li><a class="btn-floating " onclick="parar()"><img src="Imágenes/pausa-menos.png" height= "37px"></a></li>
+			<li><a class="btn-floating " onclick=" subir()"><img src="Imágenes/siemprealtop.png" height= "37px"></a></li>
+		</ul>
+	</div>
+
+
+
+	<script type="text/javascript">
+		var scrolldelay;
+
+		$(document).ready(function() {
+			
+			
+			$(".nombre").click(function(event) {
+
+				var nombre = event.target.text;
+				console.log(nombre);
+				$("#tit").text(nombre);
+				$.ajax({
+					url : "Canciones/"+ nombre + ".txt",
+					dataType: "text",
+					success : function (data) {
+
+						$(".text").html(data.replace(/\n/g, "<br />"));
+					}
+				});
+			});
+			
+		});
+		
+
+		function pageScroll() {
+			window.scrollBy(0,1);
+			scrolldelay = setTimeout(pageScroll,10);
+		};
+
+		function parar(){
+			clearTimeout(scrolldelay);
+		};
+
+		function subir(){
+			window.scrollBy(0,-100000);
+			clearTimeout(scrolldelay);
+
+		};
+
+
+		
+
+	</script>
+
+
+</body>
+
+</html>
